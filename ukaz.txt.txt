@@ -1,0 +1,2 @@
+docker build -t moj-projekt .
+docker run -p 3000:8080 --name moj-zabojnik -d moj-projekt
